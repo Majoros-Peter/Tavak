@@ -1,0 +1,39 @@
+th:first-child
+{
+    text-align: start;
+    background-color: rgb(130, 168, 221) !important;
+}
+
+th:nth-child(-n+6)
+{
+    text-align: center;
+    background-color: rgb(70, 140, 240);
+}
+
+th:last-child
+{
+    background-color: rgb(160, 160, 160);
+}
+
+td
+{
+    border-radius: 2px;
+    width: 75px;
+    height: 50px;
+    text-align: center;
+}
+
+td:first-child
+{
+    text-align: start;
+}
+
+td:last-child
+{
+    background-color: rgb(175, 180, 145);
+}
+
+#red
+{
+    color:darkred;
+}
